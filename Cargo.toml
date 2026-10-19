@@ -1,0 +1,9 @@
+[package]
+name = "stock-monitor"
+version = "0.1.0"
+edition = "2024"
+description = "Charts six months of daily closing prices for a stock and highlights volatile days"
+
+[dependencies]
+chrono = { version = "0.4.45", default-features = false, features = ["std"] }
+clap = { version = "4.6.7", features = ["derive"] }
